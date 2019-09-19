@@ -6,5 +6,15 @@ Creado repositorio: ed con README.md y .gitignore (plantilla de java)
 Clonar en local:
 git clone https://github.com/luisvelasco1920/ed.git
 
+20190919 lv
+
+git config --global user.name luisvelasco1920
+git config --global user.email luis.velasco@iesserpis.org
+git config --global push.default simple
+
+git add diario.txt
+git commit -m "diario.txt con introducción a github y git"
+git push
+
   
 
