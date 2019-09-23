@@ -17,4 +17,14 @@ git commit -m "diario.txt con introducción a github y git"
 git push
 
   
+20190923 lv
+
+Virtual Box:
+ serpisdam: RAM 2048MB, Disco 20GB, Procesadores 2
+ usuario: administrador/sistemas
+ equipo: serpisdam
+
+ sudo -i (pasa a ser root)
+ apt update
+ apt full-upgrade
 
