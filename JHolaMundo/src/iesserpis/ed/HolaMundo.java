@@ -1,9 +1,20 @@
 package iesserpis.ed;
 
+import java.util.Scanner;
+
 public class HolaMundo {
 
 	public static void main(String[] args) {
-		System.out.println("Hola mundo desde eclipse");
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Introduce tu nombre: ");
+		String nombre = scanner.nextLine();
+
+		System.out.print("Introduce tu edad: ");
+		int edad = scanner.nextInt();
+		
+		System.out.println("Hola " + nombre + ". El año que viene tendrás " + (edad + 1));
 	}
 
 }
